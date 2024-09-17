@@ -46,10 +46,10 @@ a {
     line-height: 147.682%; /* 22.152px */
 }
 
-#foots {
-    position: absolute;
-    bottom: 0;
-    right: 100px;
+footer img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do footer */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço em branco ao redor da imagem */
 }
 
 #footer a + a{
